@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pencil Sharpener</title>
+</head>
+<body>
+
+<center><h2>
+	<a><img src="https://media.giphy.com/media/waHuVmPcKWmCA/giphy.gif" style="width:250px";"height:250px";"margin:50px">
+		</a>
+	<font color="blue">Professional Pencil Sharpener</font>
+
+	<a><img src="https://media.giphy.com/media/waHuVmPcKWmCA/giphy.gif" style="width:250px";"height:250px";"margin:50px">
+		</a>
+	
+	
+	
+	
+	
+	
+	
+</h2></center>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend>Account</legend>
+		<div class="field">
+			<label>Email:</label> 
+			<input type="text" name="email">
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat password:</label> 
+			<input type="password" name="password_r">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Job Information</legend>
+		<div class="field">
+			<label>Full Name:</label> 
+			<input type="text" name="name">
+		</div>
+		<div class="field">
+			<label>Years of sharpening experience</label> 
+			<input type="text" name="street">
+		</div>
+		<div class="field">
+			<label>Sharpening school attended</label> 
+			<input type="text" name="city">
+		</div>
+		<div class="field">
+			<label>Sharpening speciality</label> 
+			<select name="state">
+				<option value="" selected="true">Choose a speciality</option>
+				
+				<option value="Colored">Colored Pencils</option>
+				<option value="Number 2">#2 Pencils</option>
+			</select>
+		</div>
+		
+	</fieldset>
+
+	<fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>Are you legally able to be employed in this country?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+		<div class="field">
+			<label>What type of position are you seeking? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="position_pt" value="parttime">Part time sharpener</li>
+				<li><input type="checkbox" name="position_ft" value="fulltime">Full time sharpener</li>
+				<li><input type="checkbox" name="position_sl" value="seasonal">Seasonal sharpener</li>
+				<li><input type="checkbox" name="position_tp" value="temporary">Temporary sharpener</li>
+			</ul>
+		</div>
+		<div class="field">
+			<label>Hours available</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>What are your past sharpening experiences?</label><br>
+			<textarea name="deserve" rows="6" cols="40"></textarea>
+		</div>
+		<div class="field">
+			<label>What is your favorite brand to sharpen?</label><br>
+			<textarea name="project" rows="6" cols="40"></textarea>
+		</div>
+		<label>How many pencils can you sharpen an hour?</label> 
+			<input type="text" name="name">
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
+</html>
